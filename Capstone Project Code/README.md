@@ -3,6 +3,7 @@
 This repository contains the research code and experimental scripts for developing a hybrid machine learning framework for dynamic asset allocation in the Thai financial market. The study focuses on integrating unsupervised regime detection, supervised ensemble prediction, and explainable AI (XAI) to analyze market dynamics.
 
 _Project Overview_
+
 Traditional portfolio models often struggle with regime shifts in financial markets. This study addresses this by:
 1. Identifying market regimes (Bull, Bear, Sideways) using an unsupervised Gaussian Mixture Hidden Markov Model (GM-HMM).
 2. Training a supervised ensemble model (Stacking and Voting) to predict future regimes.
@@ -10,6 +11,7 @@ Traditional portfolio models often struggle with regime shifts in financial mark
 4. Applying SHAP to provide transparency into the model's decision-making logic.
 
 _Methodology_
+
 The research is structured into four primary phases:
 
 Phase 1: Data Collection & Feature Engineering
@@ -57,7 +59,7 @@ The research findings are based on the following library versions:
 
 
 _Authors_
-- Adisorn Promkaewngarm
-- Yongli Chen
+
+Adisorn Promkaewngarm and Yongli Chen
 
 This project was developed as a Capstone Project for WorldQuant University (WQU).
